@@ -1,0 +1,36 @@
+<!doctype> 
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>重庆中迪双向转诊系统移动版</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/JQuery.Mobile.Min.Css">
+    <script type="text/javascript" src="CSS/JQuery.Min.Js?Ver=V1.4.1"></script>
+    <script type="text/javascript" src="CSS/JQuery.Mobile.Min.Js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="IndexRef" data-position="fixed">
+      <div data-role="header">
+        <a href="#AboutRef" data-icon="info">关于</a>
+        <h1>双向转诊管理系统</h1>
+        <a href="#" id="BtnLoginRef" data-icon="user">登录</a>
+      </div>
+      <div role="content" class="ui-content">
+        <form id="LoginForm">
+          <label for="UserName">用户名：</label>
+          <input type="text" data-clear-btn="true" name="UserName" id="UserName" value="" placeholder="请输入登录的用户名。">
+          <label for="PassWord">密&nbsp;&nbsp;码：</label>
+          <input type="PassWord" data-clear-btn="true" name="PassWord" id="PassWord" value="" placeholder="请输入登录的密码。">
+          <label for="RemberInfo">登录信息：</label>
+          <select name="RemberInfo" id="RemberInfo" data-role="slider">
+            <option value="off">不保存</option>
+            <option value="on" selected>保存</option>
+          </select>
+        </form>
+      </div>
+      <div data-role="footer" data-position="fixed">
+        <h4>重庆中迪医疗设备有限公司</h4>
+      </div>
+    </div>
+  </body>
+</html>
